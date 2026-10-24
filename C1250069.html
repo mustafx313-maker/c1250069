@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+      let gues = Number(prompt("enter gues number"))
+      let sum = 0
+        while(sum < 5){
+            gues = Number(prompt("enter a number again"))
+            sum++
+        }
+            if(gues > 15){
+                alert("too high")
+            }
+            else if(gues < 15){
+                console.log('too low')
+            }
+            if(gues === sum)
+        console.log(`congratulation,you guessed the correct number:${sum}`)
+        
+    </script>
+</body>
+</html>
